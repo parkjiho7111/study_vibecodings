@@ -1,0 +1,52 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa; /* Light background for a fresh feel */
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #28a745 !important; /* Greenish color for nature/family */
+}
+
+.navbar-nav .nav-link.active {
+    font-weight: bold;
+    color: #28a745 !important;
+}
+
+.jumbotron {
+    background: linear-gradient(45deg, #28a745, #218838); /* Green gradient */
+    color: white;
+    padding: 4rem 2rem;
+    margin-bottom: 2rem;
+    border-radius: 0.3rem;
+}
+
+.jumbotron h1 {
+    font-weight: 700;
+}
+
+.jumbotron .btn {
+    margin-top: 1rem;
+}
+
+.card-img-top {
+    max-height: 200px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #e9ecef; /* Slightly darker than body for contrast */
+    border-top: 1px solid #dee2e6;
+    color: #555;
+}
+
+footer a {
+    text-decoration: none;
+    color: #555;
+}
+
+footer a:hover {
+    color: #28a745;
+}
